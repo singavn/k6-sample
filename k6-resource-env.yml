@@ -1,0 +1,17 @@
+apiVersion: k6.io/v1alpha1
+kind: K6
+metadata:
+  name: k6-sample
+  namespace: k6-operator-system
+spec:
+  parallelism: 2
+  script:
+    configMap:
+      name: cashmaker-test
+      file: archive.tar
+  runner:
+    env:
+      - name: ID
+        value: 123
+      - name: SECRET
+        value: "xxxxxxxxxxxx"

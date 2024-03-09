@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/k6": "^0.37.0"
+  },
+  "name": "k6",
+  "version": "1.0.0",
+  "main": "soak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "k6": "^0.0.0",
+    "uniq": "^1.0.1",
+    "ws": "^8.8.1"
+  }
+}
