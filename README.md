@@ -11,3 +11,4 @@ k6 run -e RAMPUP=180s -e VU=500 projects\sample\features\k6-sample-flow.js
 k6 run -e RAMPUP=180s -e VU=500 projects\sample\features\pt-types-flow.js
 k6 run -e RAMPUP=180s -e VU=500 projects\sample\features\redirect-flow.js
 
+![image](https://github.com/singavn/k6-sample/assets/135845198/3271d037-4a87-44fb-87f3-c5d020316224)
