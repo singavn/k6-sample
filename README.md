@@ -12,4 +12,4 @@ k6 run -e RAMPUP=180s -e VU=500 projects\sample\features\pt-types-flow.js
 k6 run -e RAMPUP=180s -e VU=500 projects\sample\features\redirect-flow.js
 ```
 
-![screenshot](utils/output1.jpg)
+![screenshot](https://github.com/singavn/k6-sample/blob/main/utils/output1.JPG)
